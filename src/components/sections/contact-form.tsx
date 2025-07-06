@@ -80,7 +80,7 @@ const ContactFormSection = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <form onSubmit={handleSubmit} className="glass-card p-8 md:p-12 space-y-6">
+          <form onSubmit={handleSubmit} className="glass-card p-8 md:p-12 space-y-6 border border-white/400 rounded-xl dark:border-gray-600/30 backdrop-blur-md shadow-lg">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="relative">
                 <input
@@ -89,7 +89,7 @@ const ContactFormSection = () => {
                   value={formData.fullName}
                   onChange={handleInputChange}
                   required
-                  className="w-full bg-white/50 dark:bg-gray-800/30 backdrop-blur-lg border border-white/30 dark:border-gray-600/30 rounded-xl px-6 py-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#6C63FF]/50 dark:focus:ring-[#FF6EC7]/50 transition-all duration-300"
+                  className="w-full bg-white/50 dark:bg-gray-800/30 backdrop-blur-lg border border-white/400 dark:border-gray-600/30 rounded-xl px-6 py-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#6C63FF]/50 dark:focus:ring-[#FF6EC7]/50 transition-all duration-300"
                   placeholder="Full Name *"
                 />
               </div>
@@ -101,7 +101,7 @@ const ContactFormSection = () => {
                   value={formData.email}
                   onChange={handleInputChange}
                   required
-                  className="w-full bg-white/50 dark:bg-gray-800/30 backdrop-blur-lg border border-white/30 dark:border-gray-600/30 rounded-xl px-6 py-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#6C63FF]/50 dark:focus:ring-[#FF6EC7]/50 transition-all duration-300"
+                  className="w-full bg-white/50 dark:bg-gray-800/30 backdrop-blur-lg border border-white/400 dark:border-gray-600/30 rounded-xl px-6 py-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#6C63FF]/50 dark:focus:ring-[#FF6EC7]/50 transition-all duration-300"
                   placeholder="Email Address *"
                 />
               </div>
@@ -114,7 +114,7 @@ const ContactFormSection = () => {
                   name="phone"
                   value={formData.phone}
                   onChange={handleInputChange}
-                  className="w-full bg-white/50 dark:bg-gray-800/30 backdrop-blur-lg border border-white/30 dark:border-gray-600/30 rounded-xl px-6 py-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#6C63FF]/50 dark:focus:ring-[#FF6EC7]/50 transition-all duration-300"
+                  className="w-full bg-white/50 dark:bg-gray-800/30 backdrop-blur-lg border border-white/400 dark:border-gray-600/30 rounded-xl px-6 py-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#6C63FF]/50 dark:focus:ring-[#FF6EC7]/50 transition-all duration-300"
                   placeholder="Phone Number"
                 />
               </div>
@@ -125,7 +125,7 @@ const ContactFormSection = () => {
                   name="location"
                   value={formData.location}
                   onChange={handleInputChange}
-                  className="w-full bg-white/50 dark:bg-gray-800/30 backdrop-blur-lg border border-white/30 dark:border-gray-600/30 rounded-xl px-6 py-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#6C63FF]/50 dark:focus:ring-[#FF6EC7]/50 transition-all duration-300"
+                  className="w-full bg-white/50 dark:bg-gray-800/30 backdrop-blur-lg border border-white/400 dark:border-gray-600/30 rounded-xl px-6 py-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#6C63FF]/50 dark:focus:ring-[#FF6EC7]/50 transition-all duration-300"
                   placeholder="Location"
                 />
               </div>
@@ -138,7 +138,7 @@ const ContactFormSection = () => {
                 onChange={handleInputChange}
                 required
                 rows={6}
-                className="w-full bg-white/50 dark:bg-gray-800/30 backdrop-blur-lg border border-white/30 dark:border-gray-600/30 rounded-xl px-6 py-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#6C63FF]/50 dark:focus:ring-[#FF6EC7]/50 transition-all duration-300 resize-none"
+                className="w-full bg-white/50 dark:bg-gray-800/30 backdrop-blur-lg border border-white/400 dark:border-gray-600/30 rounded-xl px-6 py-4 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#6C63FF]/50 dark:focus:ring-[#FF6EC7]/50 transition-all duration-300 resize-none"
                 placeholder="Project Description *"
               />
             </div>
